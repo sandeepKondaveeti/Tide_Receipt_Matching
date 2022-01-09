@@ -9,10 +9,19 @@ Dataset used in this project can be found [here](https://github.com/sandeepKonda
 ## Approach
 1. Importing the libraries and data.
 2. Data Preprocessing
+	a. Understanding type of features in the data
+	b. Creating the Labelled column from the data
+	c. Drop the irrelevant features
 3. Exploratory Data Analysis (EDA)
+	a. Visualize the target feature to understand the class imbalanace.
+	b. Correlation Matrix to understand correlations of one feature with others in the dataset.
+	c. Drop the less important features features
 4. Balancing the DataSet using SMOTE
+	a.Transform the dataset to respond on class imbalance.
 5. Train and Test split Dataset.
 6. Hypermater tuning with multiple Models.
+	a. Created a utility function using GridSearchCV with a CV score of 10 to run ML models with different combination of hyper parameters.
+	b. Run different models and analysed the classification report to understand precision/recall/f1-score.
 8. Conclude model with better results.
 
 ## Code
@@ -30,7 +39,7 @@ The code used in this project is inside **Final_Submission.ipynb**.
 - Install dependencies from requirements.txt
 - Run file as python3 model_predict.py 
 
+
 ## Conclusion
 
 After analysing the features provided, dropped some of the features which are not important. Drawn relevant insights from our **Exploratory Data Analysis (EDA)** and modelled the data over various classification algorithms with combination of hypermareters and clearly see that **Random Forest Classifer** provides best results.
-

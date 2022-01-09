@@ -9,19 +9,19 @@ Dataset used in this project can be found [here](https://github.com/sandeepKonda
 ## Approach
 1. Importing the libraries and data.
 2. Data Preprocessing
-	a. Understanding type of features in the data
-	b. Creating the Labelled column from the data
-	c. Drop the irrelevant features
+	- Understanding type of features in the data
+	- Creating the Labelled column from the data
+	- Drop the irrelevant features
 3. Exploratory Data Analysis (EDA)
-	a. Visualize the target feature to understand the class imbalanace.
-	b. Correlation Matrix to understand correlations of one feature with others in the dataset.
-	c. Drop the less important features features
+	- Visualize the target feature to understand the class imbalanace.
+	- Correlation Matrix to understand correlations of one feature with others in the dataset.
+	- Drop the less important features features
 4. Balancing the DataSet using SMOTE
-	a.Transform the dataset to respond on class imbalance.
+	- Transform the dataset to respond on class imbalance.
 5. Train and Test split Dataset.
 6. Hypermater tuning with multiple Models.
-	a. Created a utility function using GridSearchCV with a CV score of 10 to run ML models with different combination of hyper parameters.
-	b. Run different models and analysed the classification report to understand precision/recall/f1-score.
+	- Created a utility function using GridSearchCV with a CV score of 10 to run ML models with different combination of hyper parameters.
+	- Run different models and analysed the classification report to understand precision/recall/f1-score.
 8. Conclude model with better results.
 
 ## Code

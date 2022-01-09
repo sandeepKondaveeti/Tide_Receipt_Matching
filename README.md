@@ -1,7 +1,5 @@
 # Tide-Receipt Matching Data Science Challenge
 
-## Results
-
 ## Dataset
 
 Dataset used in this project can be found [here](https://github.com/sandeepKondaveeti/Tide_Receipt_Matching-/blob/main/data/data_interview_test.csv).

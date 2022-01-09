@@ -4,7 +4,7 @@
 
 ## Dataset
 
-Dataset used in this project can be found [here](https://github.com/sandeepKondaveeti/huggleCare/blob/main/corona_tested_individuals_ver_006.english.csv).
+Dataset used in this project can be found [here](https://github.com/sandeepKondaveeti/Tide_Receipt_Matching-/blob/main/data/data_interview_test.csv).
 
 ## Approach
 1. Importing the libraries and data.

@@ -11,7 +11,7 @@ Dataset used in this project can be found [here](https://github.com/sandeepKonda
 	- Creating the Labelled column from the data
 	- Drop the irrelevant features
 3. Exploratory Data Analysis (EDA)
-	- Visualize the target feature to understand the class imbalanace.
+	- Visualize the target feature to understand the class imbalance.
 	- Correlation Matrix to understand correlations of one feature with others in the dataset.
 	- Drop the less important features features
 4. Balancing the DataSet using SMOTE

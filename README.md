@@ -5,22 +5,23 @@
 Dataset used in this project can be found [here](https://github.com/sandeepKondaveeti/Tide_Receipt_Matching-/blob/main/data/data_interview_test.csv).
 
 ## Approach
+
 1. Importing the libraries and data.
 2. Data Preprocessing
-	- Understanding type of features in the data
-	- Creating the Labelled column from the data
-	- Drop the irrelevant features
+	- Understanding type of features in the data (Ex: Categorical/Continuous)
+	- Creating the Labelled column from the data (Arriving at Transaction_Status which is target variable achieved using matched_transaction_id and 	             feature_transaction_id)
+	- Drop the irrelevant features (matched_transaction_id and feature_transaction_id)
 3. Exploratory Data Analysis (EDA)
 	- Visualize the target feature to understand the class imbalance.
 	- Correlation Matrix to understand correlations of one feature with others in the dataset.
-	- Drop the less important features features
+	- Drop the less important features (Based on correlation matrix score of features with the target variable, DifferentPredictedDate and                               DifferentPredictedTime were having the least score.)
 4. Balancing the DataSet using SMOTE
-	- Transform the dataset to respond on class imbalance.
+	- Transform the dataset to respond to class imbalance. (Instead of using sampling techniques like oversampling and undersampling which helps in balancing           out data but does not add any new information to the model, hence used SMOTE which is a type of data augmentation for minority class)
 5. Train and Test split Dataset.
 6. Hypermater tuning with multiple Models.
-	- Created a utility function using GridSearchCV with a CV score of 10 to run ML models with different combination of hyper parameters.
-	- Run different models and analysed the classification report to understand precision/recall/f1-score.
-8. Conclude model with better results.
+	- Created a utility function using GridSearchCV with a CV score of 10 to run ML models with different combinations of hyper parameters. (Since the dataset           is small used GridSearchCV to run on all the combinations of hyperparameters passed to the models, else if the dataset is huge we can consider using               RandomisedSearchCV)
+◦ Run different models and analysed the classification report to understand precision/recall/f1-score. (Since it is an imbalance dataset we can avoid using accuracy as performance evaluation metric for model and use precision/recall/f1Score)
+7. Save the model with better evaluations in terms of precision/recall/f1Score.
 
 ## Code
 

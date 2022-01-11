@@ -20,7 +20,7 @@ Dataset used in this project can be found [here](https://github.com/sandeepKonda
 5. Train and Test split Dataset.
 6. Hypermater tuning with multiple Models.
 	- Created a utility function using GridSearchCV with a CV score of 10 to run ML models with different combinations of hyper parameters. (Since the dataset           is small used GridSearchCV to run on all the combinations of hyperparameters passed to the models, else if the dataset is huge we can consider using               RandomisedSearchCV)
-◦ Run different models and analysed the classification report to understand precision/recall/f1-score. (Since it is an imbalance dataset we can avoid using accuracy as performance evaluation metric for model and use precision/recall/f1Score)
+	- Run different models and analysed the classification report to understand precision/recall/f1-score. (Since it is an imbalance dataset we can avoid using accuracy as performance evaluation metric for model and use precision/recall/f1Score)
 7. Save the model with better evaluations in terms of precision/recall/f1Score.
 
 ## Code

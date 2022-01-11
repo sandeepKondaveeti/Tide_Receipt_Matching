@@ -33,9 +33,10 @@ The code used in this project is inside **Final_Submission.ipynb**.
 
 ## Run model_predict.py
 
-- Store the data to predict as `test.csv` file in `data/` folder.
+- Store the data to predict as 'test.csv' file in 'data/' folder.
 - Install dependencies from requirements.txt
 - Run file as python3 model_predict.py 
+- Results will be stored for the test dataset provided in 'results/' folder
 
 
 ## Conclusion
